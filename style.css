@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 5px 10px;
+  height: 20px;
+  width: 300px;
+}
+
+button {
+  display: inline-block;
+  padding: 5px 10px;
+  height: 34px;
+  background: #fff;
+  color: #102c4f;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+button:hover {
+  background: #102c4f;
+  color: #fff;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto;
+  font-size: 1.5rem;
+  background: #ccc;
+  color: #444;
+}
+
+.agenda-container {
+  background: #fff;
+  padding: 0 2rem 2rem;
+  border-radius: 25px;
+  width: 500px;
+}
+
+.agenda-container h1{
+  text-align: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+.agenda-box {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+.agenda-box #cancel {
+  display: block;
+  margin-top: 5px;
+}
+
+.esconder {
+  display: none;
+}
+
+.agenda-tarefas {
+  display: block;
+}
+
+.agenda-lista {
+  display: grid;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.agenda-lista h3 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.agenda-lista.realizado {
+  background: #102c4f;
+  color: #fff;
+}
+
+.agenda-lista.realizado h3 {
+  text-decoration: line-through;
+}
+
+.agenda-lista.realizado button:hover {
+  background: #919191;
+  color: #fff;
+}
